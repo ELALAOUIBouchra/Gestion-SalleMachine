@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="MENU">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_baseline_meeting_room_24"
+                    android:title="Ajouter Salle" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_baseline_laptop_24"
+                    android:title="Ajouter Machine" />
+
+            </menu>
+
+        </item>
+
+
+        <item android:title="Liste et Statistique">
+            <menu>
+                <item
+                    android:id="@+id/nav_salle"
+                    android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+                    android:title="Liste des Salles" />
+                <item
+                    android:id="@+id/nav_machine"
+                    android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+                    android:title="Liste des Machines" />
+                <item
+                    android:id="@+id/nav_salle_machine"
+                    android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+                    android:title="Liste Machine par salle" />
+                <item
+                        android:id="@+id/nav_slideshow"
+                        android:icon="@drawable/ic_baseline_insert_chart_24"
+                        android:title="Statistiques" />
+            </menu>
+
+
+        </item>
+
+
+
+    </group>
+</menu>

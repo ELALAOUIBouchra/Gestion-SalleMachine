@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Gestion Salle-Machine</string>
+    <string name="navigation_drawer_open">Menu</string>
+    <string name="navigation_drawer_close">Fermer menu</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Parametres</string>
+
+    <string name="menu_home">Ajouter Salle</string>
+    <string name="menu_gallery"> Ajouter Machine </string>
+    <string name="menu_slideshow">Statistique</string>
+</resources>
